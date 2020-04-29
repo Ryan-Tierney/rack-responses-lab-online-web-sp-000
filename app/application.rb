@@ -6,6 +6,7 @@ class Application
     time = (1..24)
     
     if time = 1..12 
-      resp.write 
+      resp.write "Good Morning!"
+    
   end 
 end 
