@@ -3,7 +3,7 @@ class Application
   def call(env)
     resp = Rack::Response.new 
     
-    time = Kernel.rand(1..24)
+    time = 
     
     if time == 1..12 
       resp.write "Good Morning!"
